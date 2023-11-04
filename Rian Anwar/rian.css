@@ -1,0 +1,280 @@
+
+
+.header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Styles for Header Button */
+  .header-button {
+  background-color: #333; /* Warna latar belakang asli */
+  color: #fff; /* Warna teks asli */
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; /* Transisi perubahan warna */
+  }
+  
+  /* Saat tombol di-hover */
+  .header-button:hover {
+  background-color: #fff; /* Warna latar belakang ketika di-hover */
+  color: #000; /* Warna teks ketika di-hover */
+  }
+  
+  /* Saat tombol diklik */
+  .header-button:active {
+  background-color: #fff; /* Warna latar belakang saat diklik */
+  color: #000; /* Warna teks saat diklik */
+  }
+
+/* CSS untuk profil pengguna */
+.user-profile {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-picture {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 20px;
+    float: left; 
+    padding-bottom: 15px;/* Added to make it float to the left */
+}
+
+/* CSS for profile details */
+.profile-details {
+    flex: 1;
+    float: left; /* Added to make it float to the left */
+    margin-right: 20px; /* Added margin for spacing */
+}
+
+/* Clear float for the following content */
+.profile-bio,
+.user-posts {
+    clear: both;
+}
+
+.profile-details h2 {
+    font-size: 48px;
+    margin-bottom: 5px; /* You can adjust the font size as needed */
+}
+
+.profile-details p {
+    font-size: 25px;
+    margin-top: 5px; /* You can adjust the font size as needed */
+}
+/* CSS untuk bio */
+.bio-box {
+    overflow: hidden;
+}
+
+.bio-content {
+    margin: 0;
+    max-height: 150px; /* Sesuaikan tinggi maksimal yang Anda inginkan */
+    overflow: hidden;
+    font-size: larger;
+}
+
+
+  
+ /* CSS untuk posting */
+.user-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Tambahkan properti ini ke CSS Anda untuk mengatur tinggi kotak bio */
+
+
+
+  .post {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .post img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* CSS for post description (initially hidden) */
+/* CSS for post description (initially hidden) */
+.post .post-description {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7); /* Latar belakang semi-transparan */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none; /* Agar tidak mengganggu klik */
+}
+
+/* CSS to display the description on hover */
+.post:hover .post-description {
+    opacity: 1;
+}
+
+
+  
+  /* CSS untuk profil pengguna */
+  .user-profile {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* CSS untuk gambar profil */
+  .profile-picture img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* CSS untuk informasi profil */
+  .profile-details {
+    flex: 1;
+  }
+
+  .profile-bio {
+    background-color: #f1f1f1;
+    padding: 10px; /* Sesuaikan padding sesuai kebutuhan Anda */
+    text-align: left;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px; /* Ganti lebar kotak bio sesuai kebutuhan Anda */
+    height: 60px; /* Ganti tinggi kotak bio sesuai kebutuhan Anda */
+}
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  
+  .footer-text {
+    text-align: center;
+  }
+  
+  .contact-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* CSS for social media icons */
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media a {
+    text-decoration: none;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+.social-media a:hover {
+    transform: scale(1.1); /* Efek scaling saat di-hover */
+}
+
+/* CSS for footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 14px;
+}
+
+/* CSS for header and header-button (repeated from rian.css) */
+.header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.header-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header-button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.header-button:active {
+    background-color: #fff;
+    color: #000;
+}

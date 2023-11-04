@@ -1,0 +1,271 @@
+
+.header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Styles for Header Button */
+.header-button {
+background-color: #333; /* Warna latar belakang asli */
+color: #fff; /* Warna teks asli */
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+transition: background-color 0.3s, color 0.3s; /* Transisi perubahan warna */
+}
+
+/* Saat tombol di-hover */
+.header-button:hover {
+background-color: #fff; /* Warna latar belakang ketika di-hover */
+color: #000; /* Warna teks ketika di-hover */
+}
+
+/* Saat tombol diklik */
+.header-button:active {
+background-color: #fff; /* Warna latar belakang saat diklik */
+color: #000; /* Warna teks saat diklik */
+}
+
+
+/* Conten */
+.cv-container {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto; /* Add margin to create space between CV and header/footer */
+  max-width: 50%;
+}
+
+/* Divide the Header Section */
+.cv-container .cv-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #333; /* Add a 2px solid border at the bottom of the header */
+  padding-bottom: 20px; /* Add space below the border */
+}
+
+/* Style the name and subtitle */
+.cv-container .cv-header .personal-info {
+  text-align: left;
+}
+
+/* Style the contact information */
+.cv-container .cv-header .contact-info {
+  text-align: right;
+}
+
+/* CSS for Education Section */
+#education, #about, #skills, #experience {
+  border-bottom: 2px solid #333; /* Add a 2px solid border at the bottom */
+  padding-bottom: 20px; /* Add space below the border */
+}
+
+/* CSS for About Me Section */
+#about {
+  padding-top: 20px; /* Add space above the text content */
+}
+
+/* CSS for Education Section */
+#education, #about, #skills, #experience {
+  border-bottom: 1px solid #333; /* Add a 2px solid border at the bottom */
+  padding-bottom: 20px; /* Add space below the border */
+}
+/* Adjust the contact information layout */
+/* Adjust the contact information layout */
+.cv-container .cv-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #333; /* Add a 2px solid border at the bottom of the header */
+  padding-bottom: 20px; /* Add space below the border */
+}
+
+.cv-container .cv-header .contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 10px;
+}
+
+.contact {
+  margin: 5px 0;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1, h2, h3 {
+  font-family: Arial, sans-serif;
+}
+
+p, ul, li {
+  font-family: Calibri, sans-serif;
+}
+
+
+
+/* Styles for Footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.footer-text {
+  text-align: center;
+}
+
+
+
+/* Styles for Medium Images */
+.medium-image {
+  max-width: 450px;
+  max-height: 450px;
+  display: block;
+  margin: 0 auto;
+}
+/* Styles for Footer Social Media Icons */
+
+
+/* Styles for Footer Social Media Icons */
+.footer-social a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 5px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+
+.footer-social a img {
+  object-fit: cover;
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Memposisikan konten di tengah halaman */
+}
+
+.content {
+  display: flex; /* Mengelompokkan gambar */
+  justify-content: center; /* Memposisikan gambar di tengah */
+  align-items: center; /* Memposisikan gambar di tengah */
+}
+
+.content .image {
+  margin: 20px 20px; /* Memberikan padding 20px di atas dan di bawah elemen gambar */
+}
+
+.content .image-container img {
+  max-width: 100%; /* Gambar sesuai lebar container */
+  height: auto; /* Menjaga aspek rasio gambar */
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Memposisikan konten di tengah halaman */
+}
+
+.content .image-container {
+  display: flex; /* Mengelompokkan gambar */
+  justify-content: center; /* Memposisikan gambar di tengah */
+  align-items: center; /* Memposisikan gambar di tengah */
+}
+
+.content .image-container .image {
+  margin: 20px 20px; /* Memberikan padding 20px di atas dan di bawah elemen gambar */
+}
+
+.content .image-container img {
+  max-width: 100%; /* Gambar sesuai lebar container */
+  height: auto; /* Menjaga aspek rasio gambar */
+}
+
+.cv-container .cv-header .personal-info {
+  text-align: left;
+  font-size: 1.5rem; /* Ukuran font dalam rem */
+}
+
+.cv-container .cv-header .contact-info {
+  text-align: right;
+  font-size: 1.5rem; /* Ukuran font dalam rem */
+}
+
+/* Atur kontainer gambar */
+.slideshow-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Membagi 4 kolom per baris */
+  gap: 20px; /* Jarak antara gambar */
+}
+
+/* Atur gambar dan deskripsi */
+.image {
+  position: relative;
+  padding-top: 20px; /* Tambahkan jarak padding atas 20px */
+  padding-bottom: 20px;
+}
+
+.medium-image {
+  max-width: 100%; /* Membuat gambar sesuai dengan lebar kontainer */
+  display: block;
+}
+
+.description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Latar belakang semi-transparan */
+  color: #fff; /* Warna teks putih */
+  padding: 10px;
+  text-align: center;
+  opacity: 0; /* Deskripsi akan muncul saat gambar dihover */
+  transition: opacity 0.3s;
+}
+
+/* Munculkan deskripsi saat gambar dihover */
+.image:hover .description {
+  opacity: 2;
+}
+
